@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" type="image/png" href="https://ILLUMIN4TE.herokuapp.com/favicon.png">
+  <title>"Timeless" UI KIT | ILLUMIN4TE</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
+  
+  <%= render "/layouts/nav" %>
 
 <%= yield %>
 
+
+<script>
+
+
+  
+  $('[data-toggle="popover"]').popover();
+  
+  $('[data-toggle="tooltip"]').tooltip();
+      
+  $(function(){
+
+   $(document).on("change","input",function() {
+     var val = $(this).val();
+      if (val == "") {
+        $(this).siblings("h4").removeClass("UpAndAway");
+      } else {
+        $(this).siblings("h4").addClass("UpAndAway");
+      }
+   });     
+
+});
+
+$(document).ready(function() {
+  
+  $(".dropdown-toggle").click(function() {
+    if (($(this).siblings("ul")).hasClass("show") == true) {
+        (($(this).siblings("ul")).css({"opacity":"0"}));
+      } else {
+        (($(this).siblings("ul")).css({"opacity":"1"}));
+      }
+  });
+  
+});
+
+</script>
 </body>
 </html>

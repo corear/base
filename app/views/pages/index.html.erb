@@ -1,0 +1,1094 @@
+<div class="wrapper" style="margin-top:-90px">
+	<div class="header header-filter" style="background-image: url('https://images.unsplash.com/photo-1508922450598-2f5b1193950a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d213b02f0d7c7935bb3889e81b78ea59&dpr=2&auto=format&fit=crop&w=568&h=352&q=60&cs=tinysrgb');">
+		<div class="container">
+			<div class="row">
+			    <div class="col"></div>
+				<div class="col-md-6">
+					<h1 class="title text-center">UI Kit<br>Documentation</h1>
+				</div>
+			    <div class="col"></div>
+			</div>
+		</div>
+	</div>
+
+    <div class="main main-raised">
+        <div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="fixed-section affix-top" data-spy="affix" data-offset-top="340">
+                    <ul>
+                        <li><a href="#buttons-row">Buttons</a></li>
+                        <li><a href="#checkbox-row">Checkbox/Radio/Toggle</a></li>
+                        <li><a href="#dropdown-row">Dropdown</a></li>
+                        <li><a href="#inputs-row">Inputs</a></li>
+                        <li><a href="#textarea-row">Textarea</a></li>
+                        <li><a href="#pagination-row">Pagination</a></li>
+                        <li><a href="#progressbar-row">Progress Bars</a></li>
+                        <li><a href="#labels-row">Labels</a></li>
+                        <li><a href="#tables-row">Tables</a></li>
+                        <li><a href="#modal-row">Modals</a></li>
+                        <li><a href="#tooltip-row">Tooltips/Popovers</a></li>
+						<li><a href="#icons-row">Material Icons</a></li>
+                        <li><a href="#notification-row">Notifications</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-8">
+                <div class="main-container">
+
+	    	<!-- buttons row -->
+	        <div class="tim-row" id="buttons-row">
+
+                <h2>Buttons</h2>
+                <legend></legend>
+                <h4>Colors</h4>
+                <p>We worked over the original Bootstrap classes, opting for a softer look:</p>
+                <p>
+                       <button class="btn btn-primary">Primary</button>
+                       <button class="btn btn-info">Info</button>
+                       <button class="btn btn-success">Success</button><br>
+                       <button class="btn btn-warning">Warning</button>
+                       <button class="btn btn-danger">Danger</button>
+					   <button class="btn btn-secondary">Secondary</button>
+                </p>
+
+    			<pre class="prettyprint">
+&lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button class="btn btn-info"&gt;Info&lt;/button&gt;
+&lt;button class="btn btn-success"&gt;Success&lt;/button&gt;
+&lt;button class="btn btn-warning"&gt;Warning&lt;/button&gt;
+&lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;
+&lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+    			</pre>
+
+
+            	<h4>Sizes</h4>
+                <p>Buttons come in all needed sizes:</p>
+                <p>
+                    <button class="btn btn-primary btn-lg">Large</button>
+                    <button class="btn btn-primary">Normal</button>
+                    <button class="btn btn-primary btn-sm">Small</button>
+                    <button class="btn btn-primary btn-xs">Extra Small</button>
+                </p>
+
+				<pre class="prettyprint">
+&lt;button class="btn btn-primary btn-lg"&gt;Large&lt;/button&gt;
+&lt;button class="btn btn-primary"&gt;Normal&lt;/button&gt;
+&lt;button class="btn btn-primary btn-sm"&gt;Small&lt;/button&gt;
+&lt;button class="btn btn-primary btn-xs"&gt;Extra Small&lt;/button&gt;
+    			</pre>
+
+				<h4>Styles</h4>
+                <p>We added extra classes that can help you better customize the look. You can use regular buttons, rounded buttons or plain simple buttons. Let's see some examples:
+                </p>
+				<p>
+					<button class="btn btn-primary">Default</button>
+					<button class="btn btn-primary rounded">Round</button>
+					<button class="btn btn-primary rounded">
+						<i class="fas fa-heart"></i> With Icon
+					</button>
+					<button class="btn btn-primary btn-fab btn-fab-mini rounded">
+						<i class="fas fa-heart"></i>
+					</button>
+					<button class="btn btn-primary btn-just-icon">
+						<i class="fas fa-heart"></i>
+					</button>
+					<button class="btn btn-link-secondary">Simple Link</button>
+
+                </p>
+
+    			<pre class="prettyprint">&lt;button class="btn btn-primary"&gt;Default&lt;/button&gt;
+&lt;button class="btn btn-primary rounded"&gt;Round&lt;/button&gt;
+&lt;button class="btn btn-primary rounded"&gt;
+	&lt;i class="fas fa-heart"&gt;&lt;/i&gt; With Icon
+&lt;/button&gt;
+&lt;button class="btn btn-primary btn-fab btn-fab-mini rounded"&gt;
+	&lt;i class="fas fa-heart"&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button class="btn btn-primary btn-just-icon"&gt;
+	&lt;i class="fas fa-heart"&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button class="btn btn-link-secondary"&gt;Simple Link&lt;/button&gt;
+    			</pre>
+
+                <p>
+                    Button groups and disabled states all work like they are supposed to. We used the Font Awesome icons that can be found <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here</a>.
+                </p>
+        	</div>
+    		<!--  end row -->
+
+    		<!-- checkbox row -->
+        	<div class="tim-row" id="checkbox-row">
+                <h2> Checkboxes </h2>
+                <legend></legend>
+                <p>
+                    To use the custom checkboxes, you don't need to import any separate JavaScript file, everything is inside <code>/ILLUMIN4TE-timeless.js</code>
+                </p>
+                <p>
+					</p><div class="checkbox">
+						<label>
+							<input type="checkbox" name="optionsCheckboxes"><span class="checkbox-material"><span class="check"></span></span>
+							Unchecked
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="optionsCheckboxes" checked=""><span class="checkbox-material"><span class="check"></span></span>
+							Checked
+						</label>
+					</div>
+                <p></p>
+
+    			<pre class="prettyprint">&lt;div class="checkbox"&gt;
+	&lt;label&gt;
+		&lt;input type="checkbox" name="optionsCheckboxes"&gt;
+		Unchecked
+	&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class="checkbox"&gt;
+	&lt;label&gt;
+		&lt;input type="checkbox" name="optionsCheckboxes" checked&gt;
+		Checked
+	&lt;/label&gt;
+&lt;/div&gt;
+				</pre>
+        	</div>
+    		<!-- end row -->
+
+    		<!-- radio row -->
+        	<div class="tim-row" id="radio-row">
+            	<h2> Radio Buttons </h2>
+            	<legend></legend>
+                <p>
+                    To use the custom radio buttons, you don't need to import any separate JavaScript file, everything is inside <code>/ILLUMIN4TE-timeless.js</code>
+                </p>
+                <p>
+					</p><div class="radio">
+						<label>
+							<input type="radio" name="optionsRadios"><span class="circle"></span><span class="check"></span>
+							Radio is off
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" name="optionsRadios" checked="true"><span class="circle"></span><span class="check"></span>
+							Radio is on
+						</label>
+					</div>
+					
+                <p></p>
+
+				<pre class="prettyprint">&lt;div class="radio"&gt;
+	&lt;label&gt;
+		&lt;input type="radio" name="optionsRadios"&gt;
+		Radio is off
+	&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class="radio"&gt;
+	&lt;label&gt;
+		&lt;input type="radio" name="optionsRadios" checked="true"&gt;
+		Radio is on
+	&lt;/label&gt;
+&lt;/div&gt;
+
+    			</pre>
+		    </div>
+		    <!-- end row -->
+
+    		<!-- switches row -->
+        	<div class="tim-row" id="switch-row">
+            	<h2>Toggle Buttons</h2>
+            	<legend></legend>
+	            <p>If you want to use something more special than a checkbox, we recommend the toggle buttons.</p>
+
+				<div class="togglebutton">
+					<label>
+						<input type="checkbox" checked=""><span class="toggle"></span>
+						Toggle is on
+					</label>
+				</div>
+
+				<div class="togglebutton">
+					<label>
+						<input type="checkbox"><span class="toggle"></span>
+						Toggle is off
+					</label>
+				</div>
+
+    			<pre class="prettyprint">
+&lt;div class="togglebutton"&gt;
+	&lt;label&gt;
+    	&lt;input type="checkbox" checked=""&gt;
+		Toggle is on
+	&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="togglebutton"&gt;
+	&lt;label&gt;
+    	&lt;input type="checkbox"&gt;
+		Toggle is off
+	&lt;/label&gt;
+&lt;/div&gt;
+    			</pre>
+    		</div>
+    		<!-- end row -->
+
+		    <!-- dropdown row -->
+		    <div class="tim-row" id="dropdown-row">
+            	<h2> Dropdown </h2>
+            	<legend></legend>
+            	<p>The dropdowns have a simple look, but are still interesting enough.</p>
+
+	            <div class="row">
+	                <div class="col-md-3 dropdown">
+	                	<a href="#" class="btn btn-link-secondary dropdown-toggle btn-just-icon" data-toggle="dropdown">
+	                    	Dropdown
+	                    	<b class="caret"></b>
+	                	</a>
+	                	<ul class="dropdown-menu raised">
+	                    	<li><a href="#">Action</a></li>
+	                    	<li><a href="#">Another action</a></li>
+	                    	<li><a href="#">Something else here</a></li>
+	                    	<li class="divider"></li>
+	                    	<li><a href="#">Separated link</a></li>
+	                    	<li class="divider"></li>
+	                    	<li><a href="#">One more separated link</a></li>
+	                	</ul>
+	                </div>
+	                
+	            </div>
+
+    			<pre class="prettyprint">&lt;div class="col-md-3 dropdown"&gt;
+	&lt;a href="#" class="btn btn-link-secondary dropdown-toggle btn-just-icon" data-toggle="dropdown"&gt;
+    	Regular
+    	&lt;b class="caret"&gt;&lt;/b&gt;
+	&lt;/a&gt;
+	&lt;ul class="dropdown-menu"&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="divider"&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="divider"&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;One more separated link&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+    			</pre>
+		    </div>
+		    <!-- end row -->
+
+    		<!-- inputs row -->
+        	<div class="tim-row" id="inputs-row">
+                <h2>Inputs </h2>
+                <legend></legend>
+
+                <p>
+                We restyled the default Bootstrap inputs to give it a more flat, minimal look. You can use them with regular labels, floating labels and states or input groups. You can also add icons to add more interest.
+                </p>
+                <div class="row">
+					<div class="col-sm-4">
+	        	        	<input type="text" placeholder="Regular">
+	                </div>
+
+					<div class="col-sm-4">
+						<div>
+							<input type="email">
+    						<h4>Floating Label</h4>
+    					</div>
+					</div>
+
+	                <div class="col-sm-4">
+    						<div>
+        						<span class="form-feedback form-success"><i class="fas fa-check"></i></span>
+    							<input type="text">
+        						<h4>Success input</h4>
+        					</div>
+	                </div>
+
+	                <div class="col-sm-4">
+	                	<div>
+        						<span class="form-feedback form-error"><i class="fas fa-times"></i></span>
+    							<input type="text">
+        						<h4>Error input</h4>
+	                	</div>
+	                </div>
+	                
+	                
+					<div class="col-sm-4">
+	                	<div>
+        						<span class="form-icon"><i class="fas fa-users"></i></span>
+    							<input type="text">
+        						<h4>With Icon</h4>
+	                	</div>
+	                </div>
+
+					<div class="col-sm-4">
+	                	<div>
+        						<span class="form-icon"><i class="fas fa-users"></i></span>
+        						<span class="form-feedback form-success"><i class="fas fa-check"></i></span>
+    							<input type="text">
+        						<h4>With Icon</h4>
+	                	</div>
+	        	</div>
+
+
+    			<pre class="prettyprint">
+&lt;div class="col-sm-4"&gt;
+	&lt;div&gt;
+    	&lt;input type="text" placeholder="Regular" /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="col-sm-4"&gt;
+	&lt;div&gt;
+		&lt;input type="email"&gt;
+		&lt;h4&gt;Floating Label&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="col-sm-4"&gt;
+	&lt;div&gt;
+		&lt;span class="form-feedback form-success"&gt;&lt;i class="fas fa-check"&gt;&lt;/i&gt;&lt;/span&gt;
+		&lt;input type="text"/&gt;
+		&lt;h4&gt;Success input&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="col-sm-4"&gt;
+	&lt;div&gt;
+		&lt;span class="form-feedback form-error"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt;
+		&lt;input type="text"/&gt;
+		&lt;h4&gt;Error input&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="col-sm-4"&gt;
+	&lt;div&gt;
+		&lt;span class="form-icon"&gt;&lt;i class="fas fa-users"&gt;&lt;/i&gt;&lt;/span&gt;
+		&lt;input type="text"/&gt;
+		&lt;h4&gt;With Icon&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="col-sm-4"&gt;
+	&lt;div class="input-group"&gt;
+		&lt;span class="form-icon"&gt;&lt;i class="fas fa-users"&gt;&lt;/i&gt;&lt;/span&gt;
+		&lt;span class="form-feedback form-success"&gt;&lt;i class="fas fa-check"&gt;&lt;/i&gt;&lt;/span&gt;
+		&lt;input type="text"/&gt;
+		&lt;h4&gt;With Icon&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+				</pre>
+    		</div>
+    		<!-- end row -->
+
+
+			<!-- textarea row -->
+			<div class="tim-row" id="textarea-row">
+			    <h2>Textarea</h2>
+			    <legend></legend>
+			    <p>The textarea has a new style, but it still looks similar to all other inputs.</p>
+
+			    <textarea placeholder="Write your text here" rows="5"></textarea>
+
+				<pre class="prettyprint">&lt;textarea class="form-control" placeholder="Here can be your nice text" rows="5"&gt;&lt;/textarea&gt;
+				</pre>
+		    </div>
+		    <!-- end row -->
+
+    	
+    	
+
+
+	    <!-- nav pills row -->
+	    <div class="tim-row" id="navpills-row">
+            <h2> Nav Pills</h2>
+            <legend></legend>
+            <p>
+                We changed the design for the Bootstrap Nav Pills into something a bit more fresh. We also added more color classes for customization like <code>.nav-pills-primary</code>, <code>.nav-pills-info</code>, <code>.nav-pills-success</code>, <code>.nav-pills-warning</code>, and <code>.nav-pills-danger</code>:
+            </p>
+
+			<ul class="nav nav-pills nav-pills-primary" role="tablist">
+				<li>
+					<a href="#dashboard" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-desktop"></i></center>
+						Dashboard
+					</a>
+				</li>
+				<li>
+					<a href="#schedule" role="tab" data-toggle="tab"  class="active">
+    					<center><i class="far fa-calendar-alt"></i></center>
+						Schedule
+					</a>
+				</li>
+				<li>
+					<a href="#tasks" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-list-ul"></i></center>
+						Tasks
+					</a>
+				</li>
+			</ul>
+			<br>
+			<ul class="nav nav-pills nav-pills-info" role="tablist">
+				<li>
+					<a href="#dashboard" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-desktop"></i></center>
+						Dashboard
+					</a>
+				</li>
+				<li>
+					<a href="#schedule" role="tab" data-toggle="tab"  class="active">
+    					<center><i class="far fa-calendar-alt"></i></center>
+						Schedule
+					</a>
+				</li>
+				<li>
+					<a href="#tasks" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-list-ul"></i></center>
+						Tasks
+					</a>
+				</li>
+			</ul>
+			<br>
+			<ul class="nav nav-pills nav-pills-success" role="tablist">
+				<li>
+					<a href="#dashboard" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-desktop"></i></center>
+						Dashboard
+					</a>
+				</li>
+				<li>
+					<a href="#schedule" role="tab" data-toggle="tab"  class="active">
+    					<center><i class="far fa-calendar-alt"></i></center>
+						Schedule
+					</a>
+				</li>
+				<li>
+					<a href="#tasks" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-list-ul"></i></center>
+						Tasks
+					</a>
+				</li>
+			</ul>
+			<br>
+			<ul class="nav nav-pills nav-pills-warning" role="tablist">
+				<li>
+					<a href="#dashboard" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-desktop"></i></center>
+						Dashboard
+					</a>
+				</li>
+				<li>
+					<a href="#schedule" role="tab" data-toggle="tab"  class="active">
+    					<center><i class="far fa-calendar-alt"></i></center>
+						Schedule
+					</a>
+				</li>
+				<li>
+					<a href="#tasks" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-list-ul"></i></center>
+						Tasks
+					</a>
+				</li>
+			</ul>
+			<br>
+			<ul class="nav nav-pills nav-pills-danger" role="tablist">
+				<li>
+					<a href="#dashboard" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-desktop"></i></center>
+						Dashboard
+					</a>
+				</li>
+				<li>
+					<a href="#schedule" role="tab" data-toggle="tab"  class="active">
+    					<center><i class="far fa-calendar-alt"></i></center>
+						Schedule
+					</a>
+				</li>
+				<li>
+					<a href="#tasks" role="tab" data-toggle="tab">
+    					<center><i class="fas fa-list-ul"></i></center>
+						Tasks
+					</a>
+				</li>
+			</ul>
+
+    		<pre class="prettyprint">&lt;ul class="nav nav-pills nav-pills-primary" role="tablist"&gt;
+	&lt;li&gt;
+		&lt;a href="#dashboard" role="tab" data-toggle="tab"&gt;
+			&lt;center&gt;&lt;i class="fas fa-desktop"&gt;&lt;/i&gt;&lt;/center&gt;
+			Dashboard
+		&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href="#dashboard" class="active" role="tab" data-toggle="tab"&gt;
+			&lt;center&gt;&lt;i class="far fa-calendar-alt"&gt;&lt;/i&gt;&lt;/center&gt;
+			Schedule
+		&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href="#dashboard" role="tab" data-toggle="tab"&gt;
+			&lt;center&gt;&lt;i class="fas fa-list-ul"&gt;&lt;/i&gt;&lt;/center&gt;
+			Tasks
+		&lt;/a&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+    		</pre>
+		    </div>
+		    <!-- end row -->
+
+		    <!-- pagination row -->
+		    <div class="tim-row" id="pagination-row">
+		            <h2>Pagination</h2>
+		            <legend></legend>
+		            <p>The Bootstrap pagination elements were customised to fit the overall theme. Besides the classic look, we also added the color classes to offer more customisation like <code>.pagination-info</code>, <code>.pagination-success</code>, <code>.pagination-warning</code>, and <code>.pagination-danger</code>:
+		        </p>
+		        <ul class="pagination pagination-primary">
+		          <li><a href="#">&lt;</a></li>
+		          <li class="active"><a href="#">1</a></li>
+		          <li><a href="#">2</a></li>
+		          <li><a href="#">3</a></li>
+		          <li><a href="#">4</a></li>
+		          <li><a href="#">5</a></li>
+		          <li><a href="#">&gt;</a></li>
+		        </ul>
+
+				<ul class="pagination pagination-info">
+		          <li><a href="#">&lt;</a></li>
+		          <li><a href="#">1</a></li>
+		          <li class="active"><a href="#">2</a></li>
+		          <li><a href="#">3</a></li>
+		          <li><a href="#">4</a></li>
+		          <li><a href="#">5</a></li>
+		          <li><a href="#">&gt;</a></li>
+		        </ul>
+
+		        <ul class="pagination pagination-success">
+		          <li><a href="#">&lt;</a></li>
+		          <li><a href="#">1</a></li>
+		          <li><a href="#">2</a></li>
+		          <li class="active"><a href="#">3</a></li>
+		          <li><a href="#">4</a></li>
+		          <li><a href="#">5</a></li>
+		          <li><a href="#">&gt;</a></li>
+		        </ul>
+
+				<ul class="pagination pagination-warning">
+		          <li><a href="#">&lt;</a></li>
+		          <li><a href="#">1</a></li>
+		          <li><a href="#">2</a></li>
+		          <li><a href="#">3</a></li>
+		          <li class="active"><a href="#">4</a></li>
+		          <li><a href="#">5</a></li>
+		          <li><a href="#">&gt;</a></li>
+		        </ul>
+
+				<ul class="pagination pagination-danger">
+		          <li><a href="#">&lt;</a></li>
+		          <li><a href="#">1</a></li>
+		          <li><a href="#">2</a></li>
+		          <li><a href="#">3</a></li>
+		          <li><a href="#">4</a></li>
+		          <li class="active"><a href="#">5</a></li>
+		          <li><a href="#">&gt;</a></li>
+		        </ul>
+
+		    	<pre class="prettyprint">
+&lt;ul class="pagination pagination-primary"&gt;
+	&lt;li&gt;&lt;a href="#"&gt;&lt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+	&lt;li class="active"&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#"&gt;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+		    </pre>
+		    </div>
+		    <!-- end row -->
+
+		    <!-- progressbar row -->
+		    <div class="tim-row" id="progressbar-row">
+	            <h2>Progress Bars</h2>
+	            <legend></legend>
+
+	            <p>The progress bars from Bootstrap hold the same classes and functionality. Adding this kit over your existing project will only make it look more clean. The default background is a light gray. Each bar has a specific color but you can add some colors for the background lines using the next classes <code>.progress-line-primary</code>, <code>.progress-line-info</code>, <code>.progress-line-success</code>, <code>.progress-line-warning</code>, and <code>.progress-line-danger</code>:</p>
+	            <div class="progress">
+	            	<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+	                	<span class="sr-only">60% Complete</span>
+	            	</div>
+	            </div>
+	            <div class="progress">
+	            	<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+	                	<span class="sr-only">60% Complete</span>
+	            	</div>
+	            </div>
+				<div class="progress progress-line-primary">
+	            	<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+	                	<span class="sr-only">60% Complete</span>
+	            	</div>
+	            </div>
+				<div class="progress progress-line-info">
+	            	<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+	                	<span>60% Complete (with label)</span>
+	            	</div>
+	            </div>
+	            <div class="progress">
+	            	<div class="progress-bar progress-bar-success" style="width: 35%">
+	            		<span class="sr-only">35% Complete (success)</span>
+	            	</div>
+	            	<div class="progress-bar progress-bar-warning" style="width: 20%">
+	                	<span class="sr-only">20% Complete (warning)</span>
+		            </div>
+		            <div class="progress-bar progress-bar-danger" style="width: 10%">
+		            	<span class="sr-only">10% Complete (danger)</span>
+		            </div>
+	            </div>
+
+	    		<pre class="prettyprint">&lt;div class="progress"&gt;
+	&lt;div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"&gt;
+	&lt;span class="sr-only"&gt;30% Complete&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress"&gt;
+	&lt;div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"&gt;
+	&lt;span class="sr-only"&gt;60% Complete&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="progress progress-line-primary"&gt;
+	&lt;div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"&gt;
+	&lt;span class="sr-only"&gt;30% Complete&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress progress-line-info"&gt;
+	&lt;div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"&gt;
+	&lt;span&gt;60% Complete (with label)&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="progress"&gt;
+	&lt;div class="progress-bar progress-bar-success" style="width: 35%"&gt;
+	&lt;span class="sr-only"&gt;35% Complete (success)&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class="progress-bar progress-bar-warning" style="width: 20%"&gt;
+	&lt;span class="sr-only"&gt;20% Complete (warning)&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class="progress-bar progress-bar-danger" style="width: 10%"&gt;
+	&lt;span class="sr-only"&gt;10% Complete (danger)&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+			    </pre>
+			    </div>
+			    <!-- end row -->
+
+
+
+			    <!-- labels row -->
+			    <div class="tim-row" id="labels-row">
+			        <h2>Labels</h2>
+			        <legend></legend>
+			        <p>We restyled the default options for labels, so they can be used seamlessly alongside regular text.</p>
+			        <span class="label label-default">Default</span>
+			        <span class="label label-primary">Primary</span>
+			        <span class="label label-success">Success</span>
+			        <span class="label label-info">Info</span>
+			        <span class="label label-warning">Warning</span>
+			        <span class="label label-danger">Danger</span>
+
+					<pre class="prettyprint">
+&lt;span class="label label-default"&gt;Default&lt;/span&gt;
+&lt;span class="label label-primary"&gt;Primary&lt;/span&gt;
+&lt;span class="label label-success"&gt;Success&lt;/span&gt;
+&lt;span class="label label-info"&gt;Info&lt;/span&gt;
+&lt;span class="label label-warning"&gt;Warning&lt;/span&gt;
+&lt;span class="label label-danger"&gt;Danger&lt;/span&gt;
+			    	</pre>
+
+			    </div>
+			    <!-- end row -->
+
+
+
+
+
+		    <!-- tables row -->
+		    <div class="tim-row" id="tables-row">
+		        <h2>Tables</h2>
+		        <legend></legend>
+		        <p>All Boostrap classes for tables are supported and improved.</p>
+		        <h4>Simple Table with Actions</h4>
+		        <div class="table-responsive">
+		            <table class="table">
+		                <thead>
+		                    <tr>
+		                        <th class="text-center">#</th>
+		                        <th>Name</th>
+		                        <th>Position</th>
+		                        <th>Since</th>
+		                        <th class="text-right">Salary</th>
+		                        <th class="text-right">Actions</th>
+		                    </tr>
+		                </thead>
+		                <tbody>
+		                    <tr>
+		                        <td class="text-center">1</td>
+		                        <td>John Doe</td>
+		                        <td>Developer</td>
+		                        <td>2017</td>
+		                        <td class="text-right">$88,000</td>
+		                        <td class="td-actions text-right">
+		                            <button type="button" rel="tooltip" title="" class="btn btn-info btn-just-icon btn-xs" data-original-title="View Profile">
+		                                <i class="fa fa-user"></i>
+		                            </button>
+		                            <button type="button" rel="tooltip" title="" class="btn btn-success btn-just-icon btn-xs" data-original-title="Edit Profile">
+		                                <i class="fa fa-edit"></i>
+		                            </button>
+		                            <button type="button" rel="tooltip" title="" class="btn btn-danger btn-just-icon btn-xs" data-original-title="Remove">
+		                                <i class="fa fa-times"></i>
+		                            </button>
+		                        </td>
+		                    </tr>
+		                    <tr>
+		                        <td class="text-center">2</td>
+		                        <td>Jane Doe</td>
+		                        <td>Designer</td>
+		                        <td>2015</td>
+		                        <td class="text-right">$70,000</td>
+		                        <td class="td-actions text-right">
+		                            <button type="button" rel="tooltip" title="" class="btn btn-info btn-just-icon btn-xs" data-original-title="View Profile">
+		                                <i class="fa fa-user"></i>
+		                            </button>
+		                            <button type="button" rel="tooltip" title="" class="btn btn-success btn-just-icon btn-xs" data-original-title="Edit Profile">
+		                                <i class="fa fa-edit"></i>
+		                            </button>
+		                            <button type="button" rel="tooltip" title="" class="btn btn-danger btn-just-icon btn-xs" data-original-title="Remove">
+		                                <i class="fa fa-times"></i>
+		                            </button>
+		                        </td>
+		                    </tr>
+		                    <tr>
+		                        <td class="text-center">3</td>
+		                        <td>Jane John</td>
+		                        <td>Owner</td>
+		                        <td>2010</td>
+		                        <td class="text-right">$103,000</td>
+		                        <td class="td-actions text-right">
+		                            <button type="button" rel="tooltip" title="" class="btn btn-info btn-just-icon btn-xs" data-original-title="View Profile">
+		                                <i class="fa fa-user"></i>
+		                            </button>
+		                            <button type="button" rel="tooltip" title="" class="btn btn-success btn-just-icon btn-xs" data-original-title="Edit Profile">
+		                                <i class="fa fa-edit"></i>
+		                            </button>
+		                            <button type="button" rel="tooltip" title="" class="btn btn-danger btn-just-icon btn-xs" data-original-title="Remove">
+		                                <i class="fa fa-times"></i>
+		                            </button>
+		                        </td>
+		                    </tr>
+		                </tbody>
+		            </table>
+		            </div>
+
+					<pre class="prettyprint">
+&lt;table class="table"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th class="text-center"&gt;#&lt;/th&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Position&lt;/th&gt;
+            &lt;th&gt;Since&lt;/th&gt;
+            &lt;th class="text-right"&gt;Salary&lt;/th&gt;
+            &lt;th class="text-right"&gt;Actions&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td class="text-center"&gt;1&lt;/td&gt;
+            &lt;td&gt;John Doe&lt;/td&gt;
+            &lt;td&gt;Developer&lt;/td&gt;
+            &lt;td&gt;2017&lt;/td&gt;
+            &lt;td class="text-right"&gt;&amp;$88,000&lt;/td&gt;
+            &lt;td class="td-actions text-right"&gt;
+                &lt;button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-just-icon btn-xs"&gt;
+                    &lt;i class="fa fa-user"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+                &lt;button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-just-icon btn-xs"&gt;
+                    &lt;i class="fa fa-edit"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+                &lt;button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-just-icon btn-xs"&gt;
+                    &lt;i class="fa fa-times"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class="text-center"&gt;2&lt;/td&gt;
+            &lt;td&gt;Jane Doe&lt;/td&gt;
+            &lt;td&gt;Designer&lt;/td&gt;
+            &lt;td&gt;2016&lt;/td&gt;
+            &lt;td class="text-right"&gt;&amp;$70,000&lt;/td&gt;
+            &lt;td class="td-actions text-right"&gt;
+                &lt;button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-just-icon btn-xs"&gt;
+                    &lt;i class="fa fa-user"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+                &lt;button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-just-icon btn-xs"&gt;
+                    &lt;i class="fa fa-edit"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+                &lt;button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-just-icon btn-xs"&gt;
+                    &lt;i class="fa fa-times"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class="text-center"&gt;3&lt;/td&gt;
+            &lt;td&gt;Jane John&lt;/td&gt;
+            &lt;td&gt;Owner&lt;/td&gt;
+            &lt;td&gt;2010&lt;/td&gt;
+            &lt;td class="text-right"&gt;&amp;$103,000&lt;/td&gt;
+            &lt;td class="td-actions text-right"&gt;
+                &lt;button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-just-icon btn-xs"&gt;
+                    &lt;i class="fa fa-user"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+                &lt;button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-just-icon btn-xs"&gt;
+                    &lt;i class="fa fa-edit"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+                &lt;button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-just-icon btn-xs"&gt;
+                    &lt;i class="fa fa-times"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+		    </pre>
+
+
+				</div>
+		    </div>
+		    <!-- end row -->
+
+
+
+			    <!-- modals row -->
+			    <div class="tim-row" id="modal-row">
+			        <h2>Modals</h2>
+			        <legend></legend>
+			        <p>We restyled the classic Bootstrap Modal and gave it a more simple look.<br>
+					<b>IMPORTANT!</b> Please make sure you place the modal body outside of the <code>div.wrapper</code> tag.
+			        </p>
+			        <!-- Button trigger modal -->
+			        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Launch demo modal</button>
+
+			    <pre class="prettyprint">
+&lt;!-- Button trigger modal --&gt;
+&lt;button class="btn btn-primary" data-toggle="modal" data-target="#myModal"&gt;
+  Launch demo modal
+&lt;/button&gt;
+
+&lt;!-- Modal Core --&gt;
+&lt;div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"&gt;
+  &lt;div class="modal-dialog"&gt;
+    &lt;div class="modal-content"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;h4 class="modal-title" id="myModalLabel"&gt;Modal title&lt;/h4&gt;
+        &lt;button type="button" class="close" data-dismiss="modal" aria-hidden="true"&gt;&amp;times;&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class="modal-body"&gt;
+        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+      &lt;/div&gt;
+      &lt;div class="modal-footer"&gt;
+        &lt;button type="button" class="btn btn-info btn-simple"&gt;Save&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+    			</pre>
+
+    			</div>
+    			<!-- end row -->
+
+		    	<!-- tooltip row -->
+		    	<div class="tim-row" id="tooltip-row">
+		            <h2>Tooltips</h2>
+		            <legend></legend>
+		            <p style="margin-bottom: 45px;">We restyled the Bootstrap tooltip to make it match the lighter look.</p>
+		            <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tooltip on top">Button with Tooltip</button>
+
+		    	<pre class="prettyprint">&lt;!-- Markup --&gt;
+&lt;button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top"&gt;Button with Tooltip&lt;/button&gt;
+
+&lt;!-- Javascript --&gt;
+$('[data-toggle="tooltip"]').tooltip();
+				</pre>
+
+				</div>
+			    <!-- end row -->
+
+			    <!-- popover row -->
+			    <div class="tim-row" id="popover-row">
+			        <h2>Popovers</h2>
+			        <legend></legend>
+			        <p>
+			            We restyled the Bootstrap popover to align with the Timeless concept, while still adding a bit of color for interest.<br>
+			            See the following example:
+			        </p>
+			        <button type="button" class="btn btn-primary" data-toggle="popover" data-placement="top" title="" data-content="This popover will contain some helpful information." data-original-title="Popover on top">Click me</button>
+			    <pre class="prettyprint">&lt;!-- markup --&gt;
+
+&lt;button type="button" class="btn btn-default" data-toggle="popover" data-placement="top" title="Popover on top" data-content="Here will be some very useful information about his popover."&gt;On top&lt;/button&gt;
+
+
+&lt;!-- javascript --&gt;
+
+$('[data-toggle="popover"]').popover();
+    			</pre>
+			    </div>
+			    <!-- end row -->
+
+				<!-- popover row -->
+			    <div class="tim-row" id="icons-row">
+			        <h2>Font Awesome Icons</h2>
+			        <legend></legend>
+			        <p>
+			            We used the default <a href="https://fontawesome.com/icons" target="_blank">Font Awesome Icons</a> for all the icons in this kit.
+			        </p>
+			        <center><i class="fab fa-font-awesome-alt" style="font-size:30px"></i></center>
+			    <pre class="prettyprint">
+&lt;i class="fab fa-font-awesome-alt"&gt;&lt;/i&gt;
+    			</pre>
+			    </div>
+			    <!-- end row -->
+
+
+			    <!-- notification row -->
+			    <div class="tim-row" id="notification-row">
+			        <h2> Notifications </h2>
+			        <legend></legend>
+			        <p>The new notifications are looking fresh, clean, and <em>timeless</em>. For these notifications examples we used the <code>.container-fluid</code> class, so they will be fluid. Use the class <code>.container</code> when you use them outside of the <code>.wrapper</code> so they will be alignd with the general page container.</p>
+
+					<div class="alert alert-info">
+			            <div class="container-fluid">
+							<div class="alert-icon">
+								<i class="fas fa-info-circle"></i>
+							</div>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+							</button>
+
+			            	<b>Info alert:</b> You've got some friends nearby, stop looking at your phone and find them...
+			            </div>
+			        </div>
+			        <div class="alert alert-success">
+			            <div class="container-fluid">
+							<div class="alert-icon">
+								<i class="fas fa-check"></i>
+							</div>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+							</button>
+			            	<b>Success Alert:</b> Yuhuuu! You've got your $11.99 album from The Weeknd
+			            </div>
+			        </div>
+			        <div class="alert alert-warning">
+			             <div class="container-fluid">
+							 <div class="alert-icon">
+								<i class="fas fa-exclamation-triangle"></i>
+							</div>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+							</button>
+			                 <b>Warning Alert:</b> Hey, it looks like you still have the "copyright ©  2015" in your footer. Please update it!
+			            </div>
+			        </div>
+			        <div class="alert alert-danger">
+			             <div class="container-fluid">
+							 <div class="alert-icon">
+								<i class="fas fa-exclamation-circle"></i>
+							</div>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+							</button>
+			                 <b>Error Alert:</b> Dang man! You screwed up the server this time. You should find a good excuse for your Boss...
+			            </div>
+			        </div>
+
+					<pre class="prettyprint">&lt;div class="alert alert-info"&gt;
+    &lt;div class="container-fluid"&gt;
+	  &lt;div class="alert-icon"&gt;
+		&lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;
+	  &lt;/div&gt;
+	  &lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&gt;
+		&lt;span aria-hidden="true"&gt;&lt;i class="far fa-times-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+	  &lt;/button&gt;
+	  &lt;b&gt;Info alert:&lt;/b&gt; You've got some friends nearby, stop looking at your phone and find them...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="alert alert-success"&gt;
+    &lt;div class="container-fluid"&gt;
+	  &lt;div class="alert-icon"&gt;
+		&lt;i class="fas fa-check"&gt;&lt;/i&gt;
+	  &lt;/div&gt;
+	  &lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&gt;
+		&lt;span aria-hidden="true"&gt;&lt;i class="far fa-times-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+	  &lt;/button&gt;
+      &lt;b&gt;Success Alert:&lt;/b&gt; Yuhuuu! You've got your $11.99 album from The Weeknd
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="alert alert-warning"&gt;
+    &lt;div class="container-fluid"&gt;
+	  &lt;div class="alert-icon"&gt;
+		&lt;i class="fas fa-exclamation-triangle"&gt;&lt;/i&gt;
+	  &lt;/div&gt;
+	  &lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&gt;
+		&lt;span aria-hidden="true"&gt;&lt;i class="far fa-times-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+	  &lt;/button&gt;
+      &lt;b&gt;Warning Alert:&lt;/b&gt; Hey, it looks like you still have the "copyright &amp;copy;  2015" in your footer. Please update it!
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="alert alert-danger"&gt;
+    &lt;div class="container-fluid"&gt;
+	  &lt;div class="alert-icon"&gt;
+	    &lt;i class="fas fa-exclamation-circle"&gt;&lt;/i&gt;
+	  &lt;/div&gt;
+	  &lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&gt;
+		&lt;span aria-hidden="true"&gt;&lt;i class="far fa-times-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+	  &lt;/button&gt;
+      &lt;b&gt;Error Alert:&lt;/b&gt; Dang man! You screwed up the server this time. You should find a good excuse for your Boss...
+    &lt;/div&gt;
+&lt;/div&gt;
+					</pre>
+    			</div>
+				<!-- end row -->
+
+                <!-- end container -->
+            </div>
+
+        </div>
+        </div>
+    </div>
+    </div>
+    
+
+</div>
+
+<!-- Modal Core -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	  </div>
+	  <div class="modal-body">
+		Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+	  </div>
+	  <div class="modal-footer">
+		<button type="button" class="btn btn-info btn-simple">Save</button>
+	  </div>
+	</div>
+  </div>
+</div>
