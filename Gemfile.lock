@@ -92,7 +92,7 @@ GEM
     octicons_helper (4.2.0)
       octicons (= 5.2.0)
       rails
-    pg (1.0.0)
+    pg (0.21.0)
     popper_js (1.12.9)
     rack (2.0.4)
     rack-test (0.6.3)
@@ -178,7 +178,7 @@ DEPENDENCIES
   jquery-rails
   octicons
   octicons_helper
-  pg
+  pg (~> 0.21.0)
   rails (= 5.0.0)
   sass (~> 3.5.2)
   sass-rails (~> 5.0)
